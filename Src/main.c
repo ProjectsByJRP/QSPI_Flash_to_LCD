@@ -897,7 +897,7 @@ static void LCD_Config(void)
   /* Configure the transparency for foreground and background :
   Increase the transparency */
   BSP_LCD_SetTransparency(LTDC_ACTIVE_LAYER_BACKGROUND, 0);
-  BSP_LCD_SetTransparency(LTDC_ACTIVE_LAYER_FOREGROUND, 100);
+  BSP_LCD_SetTransparency(LTDC_ACTIVE_LAYER_FOREGROUND, 255);
 }
 
 static void MPU_Config(void)
